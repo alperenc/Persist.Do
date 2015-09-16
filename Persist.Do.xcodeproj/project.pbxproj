@@ -15,6 +15,7 @@
 		C77073CC1BA9F07600542D50 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C77073CA1BA9F07600542D50 /* Main.storyboard */; };
 		C77073CE1BA9F07600542D50 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C77073CD1BA9F07600542D50 /* Assets.xcassets */; };
 		C77073D11BA9F07600542D50 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C77073CF1BA9F07600542D50 /* LaunchScreen.storyboard */; };
+		C77073DA1BA9F0EF00542D50 /* CoreDataStack.m in Sources */ = {isa = PBXBuildFile; fileRef = C77073D91BA9F0EF00542D50 /* CoreDataStack.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,8 @@
 		C77073CD1BA9F07600542D50 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C77073D01BA9F07600542D50 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C77073D21BA9F07600542D50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C77073D81BA9F0EF00542D50 /* CoreDataStack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataStack.h; sourceTree = "<group>"; };
+		C77073D91BA9F0EF00542D50 /* CoreDataStack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataStack.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +68,8 @@
 			children = (
 				C77073BE1BA9F07600542D50 /* AppDelegate.h */,
 				C77073BF1BA9F07600542D50 /* AppDelegate.m */,
+				C77073D81BA9F0EF00542D50 /* CoreDataStack.h */,
+				C77073D91BA9F0EF00542D50 /* CoreDataStack.m */,
 				C77073C41BA9F07600542D50 /* MasterViewController.h */,
 				C77073C51BA9F07600542D50 /* MasterViewController.m */,
 				C77073C71BA9F07600542D50 /* DetailViewController.h */,
@@ -162,6 +167,7 @@
 				C77073C31BA9F07600542D50 /* Persist_Do.xcdatamodeld in Sources */,
 				C77073C01BA9F07600542D50 /* AppDelegate.m in Sources */,
 				C77073BD1BA9F07600542D50 /* main.m in Sources */,
+				C77073DA1BA9F0EF00542D50 /* CoreDataStack.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
