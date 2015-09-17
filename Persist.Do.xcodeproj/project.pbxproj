@@ -11,11 +11,14 @@
 		C77073C01BA9F07600542D50 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C77073BF1BA9F07600542D50 /* AppDelegate.m */; };
 		C77073C31BA9F07600542D50 /* Persist_Do.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C77073C11BA9F07600542D50 /* Persist_Do.xcdatamodeld */; };
 		C77073C61BA9F07600542D50 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C77073C51BA9F07600542D50 /* MasterViewController.m */; };
-		C77073C91BA9F07600542D50 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C77073C81BA9F07600542D50 /* DetailViewController.m */; };
 		C77073CC1BA9F07600542D50 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C77073CA1BA9F07600542D50 /* Main.storyboard */; };
 		C77073CE1BA9F07600542D50 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C77073CD1BA9F07600542D50 /* Assets.xcassets */; };
 		C77073D11BA9F07600542D50 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C77073CF1BA9F07600542D50 /* LaunchScreen.storyboard */; };
 		C77073DA1BA9F0EF00542D50 /* CoreDataStack.m in Sources */ = {isa = PBXBuildFile; fileRef = C77073D91BA9F0EF00542D50 /* CoreDataStack.m */; settings = {ASSET_TAGS = (); }; };
+		C77073E51BAA056500542D50 /* Todo+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = C77073E21BAA056500542D50 /* Todo+CoreDataProperties.m */; settings = {ASSET_TAGS = (); }; };
+		C77073E61BAA056500542D50 /* Todo.m in Sources */ = {isa = PBXBuildFile; fileRef = C77073E41BAA056500542D50 /* Todo.m */; settings = {ASSET_TAGS = (); }; };
+		C77073EC1BAA0F4600542D50 /* AddEditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C77073EB1BAA0F4600542D50 /* AddEditViewController.m */; settings = {ASSET_TAGS = (); }; };
+		C77073F11BAA237300542D50 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C77073F01BAA237300542D50 /* DetailViewController.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,14 +29,21 @@
 		C77073C21BA9F07600542D50 /* Persist_Do.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Persist_Do.xcdatamodel; sourceTree = "<group>"; };
 		C77073C41BA9F07600542D50 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
 		C77073C51BA9F07600542D50 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
-		C77073C71BA9F07600542D50 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
-		C77073C81BA9F07600542D50 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 		C77073CB1BA9F07600542D50 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C77073CD1BA9F07600542D50 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C77073D01BA9F07600542D50 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C77073D21BA9F07600542D50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C77073D81BA9F0EF00542D50 /* CoreDataStack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataStack.h; sourceTree = "<group>"; };
 		C77073D91BA9F0EF00542D50 /* CoreDataStack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataStack.m; sourceTree = "<group>"; };
+		C77073E11BAA056500542D50 /* Todo+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Todo+CoreDataProperties.h"; sourceTree = "<group>"; };
+		C77073E21BAA056500542D50 /* Todo+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Todo+CoreDataProperties.m"; sourceTree = "<group>"; };
+		C77073E31BAA056500542D50 /* Todo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Todo.h; sourceTree = "<group>"; };
+		C77073E41BAA056500542D50 /* Todo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Todo.m; sourceTree = "<group>"; };
+		C77073EA1BAA0F4600542D50 /* AddEditViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddEditViewController.h; sourceTree = "<group>"; };
+		C77073EB1BAA0F4600542D50 /* AddEditViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddEditViewController.m; sourceTree = "<group>"; };
+		C77073EE1BAA108000542D50 /* Strings.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Strings.h; sourceTree = "<group>"; };
+		C77073EF1BAA237300542D50 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		C77073F01BAA237300542D50 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,18 +78,12 @@
 			children = (
 				C77073BE1BA9F07600542D50 /* AppDelegate.h */,
 				C77073BF1BA9F07600542D50 /* AppDelegate.m */,
-				C77073D81BA9F0EF00542D50 /* CoreDataStack.h */,
-				C77073D91BA9F0EF00542D50 /* CoreDataStack.m */,
-				C77073C41BA9F07600542D50 /* MasterViewController.h */,
-				C77073C51BA9F07600542D50 /* MasterViewController.m */,
-				C77073C71BA9F07600542D50 /* DetailViewController.h */,
-				C77073C81BA9F07600542D50 /* DetailViewController.m */,
-				C77073CA1BA9F07600542D50 /* Main.storyboard */,
-				C77073CD1BA9F07600542D50 /* Assets.xcassets */,
-				C77073CF1BA9F07600542D50 /* LaunchScreen.storyboard */,
+				C77073E71BAA058D00542D50 /* Model */,
+				C77073E91BAA05B400542D50 /* Controller */,
+				C77073E81BAA05AC00542D50 /* View */,
 				C77073D21BA9F07600542D50 /* Info.plist */,
-				C77073C11BA9F07600542D50 /* Persist_Do.xcdatamodeld */,
 				C77073BB1BA9F07600542D50 /* Supporting Files */,
+				C77073EE1BAA108000542D50 /* Strings.h */,
 			);
 			path = Persist.Do;
 			sourceTree = "<group>";
@@ -90,6 +94,43 @@
 				C77073BC1BA9F07600542D50 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C77073E71BAA058D00542D50 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C77073D81BA9F0EF00542D50 /* CoreDataStack.h */,
+				C77073D91BA9F0EF00542D50 /* CoreDataStack.m */,
+				C77073E11BAA056500542D50 /* Todo+CoreDataProperties.h */,
+				C77073E21BAA056500542D50 /* Todo+CoreDataProperties.m */,
+				C77073E31BAA056500542D50 /* Todo.h */,
+				C77073E41BAA056500542D50 /* Todo.m */,
+				C77073C11BA9F07600542D50 /* Persist_Do.xcdatamodeld */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		C77073E81BAA05AC00542D50 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C77073CA1BA9F07600542D50 /* Main.storyboard */,
+				C77073CD1BA9F07600542D50 /* Assets.xcassets */,
+				C77073CF1BA9F07600542D50 /* LaunchScreen.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		C77073E91BAA05B400542D50 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C77073EA1BAA0F4600542D50 /* AddEditViewController.h */,
+				C77073EB1BAA0F4600542D50 /* AddEditViewController.m */,
+				C77073C41BA9F07600542D50 /* MasterViewController.h */,
+				C77073C51BA9F07600542D50 /* MasterViewController.m */,
+				C77073EF1BAA237300542D50 /* DetailViewController.h */,
+				C77073F01BAA237300542D50 /* DetailViewController.m */,
+			);
+			name = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -162,12 +203,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C77073C91BA9F07600542D50 /* DetailViewController.m in Sources */,
+				C77073E51BAA056500542D50 /* Todo+CoreDataProperties.m in Sources */,
 				C77073C61BA9F07600542D50 /* MasterViewController.m in Sources */,
+				C77073F11BAA237300542D50 /* DetailViewController.m in Sources */,
 				C77073C31BA9F07600542D50 /* Persist_Do.xcdatamodeld in Sources */,
 				C77073C01BA9F07600542D50 /* AppDelegate.m in Sources */,
 				C77073BD1BA9F07600542D50 /* main.m in Sources */,
 				C77073DA1BA9F0EF00542D50 /* CoreDataStack.m in Sources */,
+				C77073EC1BAA0F4600542D50 /* AddEditViewController.m in Sources */,
+				C77073E61BAA056500542D50 /* Todo.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

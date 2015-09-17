@@ -1,5 +1,5 @@
 //
-//  DetailViewController.h
+//  AddTodoViewController.h
 //  Every.Do
 //
 //  Created by Alp Eren Can on 08/09/15.
@@ -7,13 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "Todo.h"
 #import "CoreDataStack.h"
+#import "Todo.h"
+#import "Strings.h"
 
-@interface DetailViewController : UIViewController
+@interface AddEditViewController : UIViewController
 
+@property (strong, nonatomic) CoreDataStack *stack;
 @property (strong, nonatomic) Todo *todo;
 
-@property (nonatomic) CoreDataStack *stack;
 @end
-
